@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: || "XTREME~XMD~q4hFABhb#gOHzER47n8BHu4GE54TU_vyoOppEp_3I0C7m9KTIL5Q"
+SESSION_ID: || "XTREME~XMD~Kxhi0R5T#_8yTkfT0_tBvf96PlJXsJRENuIkyuQk60raIP_9moOo",
 // add your Session Id 
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "false",
 // make true or false status auto seen
@@ -25,7 +25,7 @@ ADMIN_EVENTS: process.env.ADMIN_EVENTS || "false",
 // make true to know who dismiss or promoted a member in group
 ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
-|| "." ,
+|| ".",
 
 // make true if want auto voice reply if someone menetion you 
 MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/mry39g.jpg",
